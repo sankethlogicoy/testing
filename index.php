@@ -65,6 +65,7 @@ if (isset($_SESSION['login_user'])) {
 
 
                     </center>
+					
 
                     <br><a href="forgetpassword.php" class="forget_clr">Forget Password</a>
                     </form>
