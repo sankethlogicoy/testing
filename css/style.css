@@ -1,0 +1,206 @@
+@import http://fonts.googleapis.com/css?family=Raleway;
+.portal_txt{
+   font-family: ralewaySemiBold;
+    color: red;
+    font-size: 2em;
+    margin-top: 4%;
+}
+.forget_clr{
+    color:grey !important;
+}
+ul {
+    overflow: auto;
+
+}
+ 
+ul li {
+    list-style-type: none;
+   float:left;
+}
+ 
+ul li a i {
+    background: #205D7A;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 25px;
+    text-align: center;
+    margin-right: 10px;
+    padding-top: 15%;
+    transition: all 0.2s ease-in-out;
+}
+.fa-facebook {
+    background:#3b5998
+} 
+.fa-linkedin {
+    background:#007bb6
+}
+.fa-twitter {
+    background:#00aced
+}
+.google-plus {
+    background:#dd4b39
+}
+ul li a i:hover {
+    opacity: .7;
+}
+
+
+.big_txt{
+    margin:8%;
+    font-size:1em;
+}
+.social_media{
+   position: absolute;
+    margin-top: 75%;
+    margin-left: 38%;
+
+}
+.grid_text{
+    color: white;
+    position: absolute;
+    text-align: center;
+   
+    font-size: 1em;
+       margin-top: 28%;
+}
+.right-grid{
+  width:100% !important;
+  position: fixed;
+}
+.right-grid1{
+  width:100% !important;
+  position: absolute;
+}
+#main {
+    margin-top: 8%;
+text-align: center;
+    font-family: raleway;
+}
+.img_logo{
+    height: 96px;
+    width: 96px;
+}
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+    background-color: white !important;
+    background-image: none;
+    color: white !important;
+}
+span {
+color:red
+}
+h1{
+   margin-left: 15%;
+    margin-bottom: -2%;
+    font-family: raleway;
+}
+hr {
+border:0;
+border-bottom:1px solid #ccc;
+margin:10px -40px;
+margin-bottom:30px
+}
+#login {
+  
+    text-align: center;
+    border-radius: 10px;
+    font-family: raleway;
+    margin: auto;
+}
+ input:focus{
+    outline: none !important;
+}
+input[type=text],input[type=password] {
+    padding: 10px;
+    border: none;
+    margin-top: 8px;
+    border-bottom: 1px solid #ccc;
+  text-align: center;
+    font-size: 16px;
+    font-family: raleway;
+}
+input[type=submit],input[type=button] {
+width: 100%;
+background-color: white !important;
+color: grey;
+font-size: 20px;
+cursor: pointer;
+margin-top: 35%;
+border: none !important;
+margin-bottom: 15px;
+transition: 1s ease-in-out;
+}
+.login_hvr:hover{
+    color:green;
+
+}
+#profile {
+padding:50px;
+border:1px dashed grey;
+font-size:20px;
+background-color:#DCE6F7
+}
+#logout {
+float:right;
+padding:5px;
+border:dashed 1px gray
+}
+
+a {
+text-decoration:none;
+color:#6495ed
+}
+i {
+color:#6495ed
+}
+#lb1,#lb2,#lb3
+{
+	color:red;
+}
+
+h1.title { 
+    font-size: 50px;
+    font-family: 'Passion One', cursive; 
+    font-weight: 400; 
+}
+
+hr{
+    width: 10%;
+    color: #fff;
+}
+
+.form-group{
+    margin-bottom: 15px;
+}
+
+label{
+    margin-bottom: 15px;
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 11px;
+    padding-top: 3px;
+}
+
+
+.login-button{
+    margin-top: 5px;
+}
+
+.login-register{
+    font-size: 11px;
+    text-align: center;
+}
+@media screen and (min-width:1920px){
+    .grid_text{
+   
+    font-size: 2em !important;
+       margin-top: 28%;
+}
+.big_txt{
+    margin:8%;
+    font-size:2em !important;
+}
+}

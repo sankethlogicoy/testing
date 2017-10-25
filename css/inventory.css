@@ -1,0 +1,85 @@
+   .icon_clr{
+         color: red !important;
+         font-size: 1.5em !important;
+         }
+         .add_clrs{
+         font-size: 1.8em !important;
+         color: grey;
+         }
+       
+         .histor_list{
+         font-size:2em !important;
+         margin: 6% 6% 4% -6%;
+         }
+         .history_style{
+         color:grey;
+         padding: 5%;
+         }
+         .list_style{
+         color:grey;
+         padding: 5%;
+         }
+         .search_btn{
+         border: none;
+         border-bottom: 1px solid grey;
+         margin: 6% 0% 0% 4%;
+         width: 100%;
+         }
+         .th_clr{
+         color:grey;
+         font-size: 1.5em;
+         }
+         a{
+         text-decoration: none !important;
+         }
+         #paginate
+         {
+         text-align:center;
+         border:0px green solid;
+         width:500px;
+         margin:0 auto;
+         }
+         .link{
+         width:800px; 
+         margin:0 auto; 
+         border:0px green solid;
+         }
+         li{ 
+         list-style: none; 
+         float: left;
+         margin-right: 16px; 
+         padding:5px; 
+         border:solid 1px #193d81;
+         color:#0063DC; 
+         }
+         li:hover
+         { 
+         color:#FF0084; 
+         cursor: pointer; 
+         }
+         .invn_txt{
+            color:grey !important;
+            text-align:center;
+            font-size:2em;
+         }
+         .logout-session{
+            font-size:2em;
+          }
+   @media screen and (min-width: 320px) and (max-width: 640px){
+      .histor_list{
+       font-size:10px !important;
+      }
+       .add_clrs{
+         font-size: 1em !important;
+         color: grey;
+         }
+       .th_clr {
+    color: grey;
+    font-size: 1em;
+}
+   }
+   .page-header {
+    padding-bottom: 9px !important;
+    border: none !important;
+    margin:none !important;
+}
